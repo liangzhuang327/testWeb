@@ -13,13 +13,13 @@ export default class TestWebpack extends Component{
         return(
             <div>
                 {/* webpack测试 */}
-                {/* <WebpackCss />
+                <WebpackCss />
                 <WebpackPicture />
-                <DefinePlugin /> */}
+                <DefinePlugin />
                 {/* react api 测试 */}
-                <ReactContext />
+                {/* <ReactContext />
                 <TestLogHOC />
-                <TestRefHOC />
+                <TestRefHOC /> */}
             </div>
         )
     }
