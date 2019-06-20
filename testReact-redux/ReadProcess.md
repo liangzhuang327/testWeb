@@ -1,0 +1,4 @@
+# 1、实现了全局store状态的分发，分发到需要的后代组建之中 SimulateProvider ChildrenGetGlobelStore
+
+#2、实现了后代组建接受全局store状态的封装，所有组建经过SimulateConnect的组建都能拿到store: ChildrenGetGlobelStore_reactRedux
+SimulateConnect组建只是按照Connect的作用和形式简单模仿了一下，后续需要加如更多考虑

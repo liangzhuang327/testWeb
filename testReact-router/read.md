@@ -1,0 +1,1 @@
+## 第一步，先按照官网安装依赖，发现react-route和react-router-dom，第一印象就想到了react和react-dom；然而，前方高能，react-router-dom只是比react-router多出了BrowserRouter，HashRouter，Link，NavLink四个DOM类组建，所以，两个库只需引入一个！！见文件TestAPI.jsx

@@ -1,0 +1,27 @@
+h1 {
+    color: red
+}
+.test_img {
+    background: #FFFFFF url('https://zos.alipayobjects.com/rmsportal/sifuoDUQdAFKAVcFGROC.svg') no-repeat;
+    width: 300px;
+    height: 100px;
+}
+.test_img_cross-origin-true {
+    background: #FFFFFF url('https://github.com/liangzhuang327/Drips/blob/master/pictrues/3.png');
+    width: 300px;
+    height: 100px;
+}
+.test_img_http {
+    background: #FFFFFF url('http://img.zcool.cn/community/01d881579dc3620000018c1b430c4b.JPG@3000w_1l_2o_100sh.jpg') no-repeat fixed center;
+    width: 300px;
+    height: 100px;
+    overflow: scroll
+}
+.test_img_local {
+    background: #FFFFFF url('../image/rose.jpeg');
+    width: 300px;
+    height: 100px;
+}
+li {
+    font-size: 20px;
+}
