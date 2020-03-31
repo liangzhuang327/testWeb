@@ -1,4 +1,5 @@
 var http = require('http');
+var path = require('path');
 var html = require('./html.js')
 var Koa = require('koa');
 var router = require('./router.js')
@@ -33,5 +34,5 @@ app.use(html.html)
    //  })
   //  .use(router.router.routes())
   //  .use(router.router.allowedMethods())
-   .use(staticServer('/src/client/test.css'))
+  //  .use(staticServer(path.join(__dirname, '../') + '/client/test.css', {index:false}))
    .listen(3000)
